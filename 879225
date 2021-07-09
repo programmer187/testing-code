@@ -1,0 +1,44 @@
+package saleh;
+
+import static org.junit.Assert.*;
+
+
+import org.junit.Test;
+
+public class myjunit {
+	myclass a = new myclass();
+
+	@Test
+	public void  mytest() {
+		assertEquals(777,a.password(777));
+	}
+	
+	@Test
+	public void  expiratingTest() {
+		assertEquals(false,a.Expiration(2050));
+	}
+	
+	@Test
+	public void  readingcardTest() {
+		assertEquals(true,a.readingCard(true));
+	}
+
+	@Test
+	public void  enternumTest() {
+		assertEquals(355,a.enternum(355));
+	}
+	@Test
+	public void  PrinteOutTest() {
+		assertEquals("succefull",a.PrinteOut("succefull"));
+	}
+	@Test
+	public void  BalanceCheckTest() {
+		assertEquals(5000,a.BalanceCheck(5000));
+	}
+	
+
+		
+		
+	
+
+}

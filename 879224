@@ -1,0 +1,47 @@
+package saleh;
+
+public class myclass {
+	
+	public boolean readingCard(boolean readed) {
+		return readed;
+	}
+	
+	public int password(int password) {
+		return password;
+	}
+	
+	public boolean Expiration(int expired) {
+		if (expired >2021)
+		return false;
+		else return true;
+	}
+	
+	public boolean network(boolean connected) {
+		return connected;
+	}
+	public int enternum(int num) {
+		return num;
+	}
+	
+	public boolean ATMCash(boolean enough) {
+		return enough;
+	}
+	
+	public int Cashwithdraw(int cash) {
+		return cash;
+	}
+	
+	public String PrinteOut(String bill) {
+		return bill;
+	}
+	
+	public String welcometext(String welcome) {
+		return welcome;
+	}
+	
+	
+	public int BalanceCheck(int balance) {
+		return balance;
+	}
+
+}
